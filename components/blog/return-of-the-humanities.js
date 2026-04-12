@@ -1,0 +1,30 @@
+class ReturnOfTheHumanitiesPost extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <article class="mb-8">
+        <h2 class="text-lg font-semibold mb-1">Return of the humanities</h2>
+        <p class="text-xs text-gray-400 mb-4">Mar 17, 2026</p>
+
+        <div class="text-sm text-gray-700 space-y-4">
+          <p>Pre AI boom, when I was still a student, I was chatting with a professor at Yale. He said, that in the coming decade, we'll see a resurgence of the humanities. More people will go to school to study the arts.</p>
+
+          <p>This is likely to be true under the current commercial context. If it takes taste and technical resources to build a great product, the balance is shifting to make taste scarce and technical resources far more readily available. And as AI opens up the opportunity to create new experiences, it is the humanists who will lead the way.</p>
+
+          <p>Two things are implicit in this. First, it's likely that current LLM architectures, which are reinforced to say what we already know, do not have the capacity for intuition, which allows people to pull on threads that run against the existing paradigm.</p>
+
+          <p>Second, the way we use AI today is how people used the web when it first came out; websites looked like magazines. Humanists, not technical experts, changed that. David Carson, who upended print typography with Ray Gun magazine, studied sociology; Ethan Marcotte, who coined responsive web design, studied English literature; and Jeffrey Zeldman, who converted the web industry from tag soup to semantic standards, came from advertising copywriting.</p>
+
+          <p>But the reason that my professor made his prediction is more interesting. He was, I recall, thinking about the comparative rate of human understanding across the humanities and the sciences. In his view, we had over-invested in the sciences.</p>
+
+          <p>The job of science is to generalize. Scientific thinking is about proposing a theory to solve a problem, learning from the mistake of the theory, proposing another theory, and so on, with the hope of solving the problem. For science to work, the problem must be persistent so that you can test multiple theories on it.</p>
+
+          <p>The job of humanities is to help people act under specific conditions, given their own motivations and those of others. New parents deal with this all of the time. They want their children to be a certain way. But they must grapple with the fact that each of their children is unique, that their parenting methods have long-term consequences (some of which they may grasp, but others maybe forever unknown to them), and that their power is more limited than they'd imagined. Given these conditions, in the course of time, parents commonly modify their motivations with respect to their children to reframe the relationship under a productive light.</p>
+
+          <p>The humanities help us understand who we are, what we could and should want, and how we should act to fulfill our motivations. While we race ahead to solve general problems, we may be falling behind on understanding the problem of our lives, and how we decide what we want from them.</p>
+        </div>
+      </article>
+    `;
+  }
+}
+
+customElements.define('post-return-of-the-humanities', ReturnOfTheHumanitiesPost);
