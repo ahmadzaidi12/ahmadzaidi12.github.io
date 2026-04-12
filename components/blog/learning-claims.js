@@ -12,7 +12,7 @@ class LearningClaimsPost extends HTMLElement {
 
           <p>Common identity-based claims are important. They are the basis of politics. They allow people who have a variety of incentives to form a larger group under a single banner. There is no logical reason that supporting green energy and opposing gun ownership fall under the same banner. It just happens to be that they do.</p>
 
-          <p>But identity-based claims shouldn't be mixed with learning claims. I tell people "that I am a go with the flow person" to explain the general sets of behaviors I engage in, like not scheduling things too far in advance or changing up my fitness routine regularly. That is genuinely helpful. It provides a lot of information to people quickly. However, when I start using "go with the flow" to justify starting my day with coffee, it becomes less helpful, since that may not be the best decision.</p>
+          <p>But identity-based claims shouldn't be mixed with learning claims. I tell people that "I am a go with the flow person" to explain the general sets of behaviors I engage in, like not scheduling things too far in advance or changing up my fitness routine regularly. It is helpful. It provides a lot of information to people quickly. However, when I start using "go with the flow" to justify starting my day with coffee, it becomes less helpful, since that may not be the best decision.</p>
 
           <p>Compressing information with identity-based claims is helpful. It allows us to relate to each other. But justifying actions with them can ruin our ability to learn.</p>
         </div>
